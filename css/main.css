@@ -1,0 +1,46 @@
+div {
+  max-width: 25em;
+  display: inline-block;
+  margin: 1.5rem;
+  vertical-align: middle;
+}
+
+img {
+  max-width: 25em;
+  display: block;
+  width: 100%;
+}
+
+p {
+  line-height: 1.5;
+  text-align: left;
+  font-family: Lato;
+}
+
+.btn {
+  text-align: center;
+  padding: 1em;
+  font-family: Lato;
+  border-radius: 5px;
+  background-color: #eee9de;
+  text-decoration: none;
+  color: #333;
+  border: 3px solid #333;
+}
+
+button:hover {
+  background-color: #666;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h2 {
+  font-family: Lato;
+}
+
+html {
+  background-color: #eee9de;
+  box-sizing: border-box;
+}
