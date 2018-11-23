@@ -1,12 +1,21 @@
 div {
-  max-width: 25em;
   display: inline-block;
-  margin: 1.5rem;
   vertical-align: middle;
 }
 
-img {
+.img {
+  padding: 1em;
+  text-align: left;
   max-width: 25em;
+}
+
+.content {
+  padding: 1em;
+  text-align: left;
+  max-width: 25em;
+}
+
+img {
   display: block;
   width: 100%;
 }
@@ -15,17 +24,25 @@ p {
   line-height: 1.5;
   text-align: left;
   font-family: Lato;
+  margin: 0 0 1.5rem;
 }
 
 .btn {
-  text-align: center;
-  padding: 1em;
-  font-family: Lato;
-  border-radius: 5px;
+  padding: .4em .75em .3em;
+  font-size: 1em;
+  font-family: Lato, bold;
+  border-radius: 8px;
   background-color: #eee9de;
   text-decoration: none;
   color: #333;
-  border: 3px solid #333;
+  border: .2em solid #333;
+  text-align: left;
+  float: left;
+}
+
+section {
+  text-align: center;
+  padding: 2em 0;
 }
 
 button:hover {
@@ -37,10 +54,15 @@ button:hover {
 }
 
 h2 {
-  font-family: Lato;
+  margin: 0 0 1.5rem;
+  font-family: Lato, bold;
 }
 
 html {
   background-color: #eee9de;
   box-sizing: border-box;
+}
+
+body {
+  margin: 0;
 }
